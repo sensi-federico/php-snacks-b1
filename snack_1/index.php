@@ -13,11 +13,22 @@ $matches = [
     'Miami Heat - LA Lakers | 80 - 112',
 ];
 
-
 foreach ($matches as $match) {
     echo $match;
     echo '<br>';
 }
+
+// method 2
+
+echo '<br>';
+
+$matches_2 = array(
+    array('Boston Celtics', 'Chicago Bulls', '102', '89'),
+    array('Miami Heat', 'LA Lakers', '80', '112')
+);
+
+echo "Home " . $matches_2[0][0] . '<br>' . 'Guest ' . $matches_2[0][1] . '<br>' . ' Points Home ' . $matches_2[0][2] . '<br>' . ' Points Guest ' . $matches_2[0][3]
+
 
 ?>
 
@@ -32,6 +43,7 @@ foreach ($matches as $match) {
 </head>
 
 <body>
+
 
 
 </body>
